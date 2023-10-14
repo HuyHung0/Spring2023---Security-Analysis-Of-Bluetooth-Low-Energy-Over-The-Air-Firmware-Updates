@@ -1,3 +1,6 @@
+This is a copy of my repository in gitlab.eurecom.fr:
+<https://gitlab.eurecom.fr/lehh/spring2023-Security-analysis-of-Bluetooth-low-energy-Over-the-Air-firmware-updates>
+
 # Spring2023 - Security Analysis Of Bluetooth Low Energy Over The Air Firmware Updates
 
 - [Spring2023 - Security Analysis Of Bluetooth Low Energy Over The Air Firmware Updates](#spring2023-security-analysis-of-bluetooth-low-energy-over-the-air-firmware-updates)
