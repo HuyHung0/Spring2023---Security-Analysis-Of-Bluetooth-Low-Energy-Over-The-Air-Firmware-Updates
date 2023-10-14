@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "softdevice": {
+            "bin_file": "sd_s132_nrf52_4.0.2_softdevice.bin",
+            "dat_file": "sd_s132_nrf52_4.0.2_softdevice.dat"
+        }
+    }
+}

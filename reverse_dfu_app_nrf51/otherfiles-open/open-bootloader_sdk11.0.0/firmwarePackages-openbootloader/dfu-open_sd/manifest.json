@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "dfu_version": 0.5,
+        "softdevice": {
+            "bin_file": "softdevices.bin",
+            "dat_file": "softdevices.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 29638,
+                "softdevice_req": [
+                    65534
+                ]
+            }
+        }
+    }
+}

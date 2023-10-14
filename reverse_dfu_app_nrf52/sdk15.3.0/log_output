@@ -1,0 +1,102 @@
+Connecting to the target d4:37:ce:01:da:53
+Connected to the target d4:37:ce:01:da:53
+
+Discovering services and characteristics....
+
+Service--------------------------------------------------
+--Service UUID......: 1800
+--Service type......: 2800--Primary Service
+--Service handle....: 0x1
+--Name..............: Generic Access (0x1800)
+--Name in database..: Generic Access
+
+
+------ Characteristic
+----------UUID......................: 2A00
+----------Type......................: 2803-Characteristic
+----------Handle....................: 0x2
+----------Value Handle..............: 0x3
+----------Permissions...............: 0xa : ['Read', 'Write']
+----------Name......................: Device Name (0x2A00)
+----------Name in database..........: Device Name
+----------Descriptors...............: None
+
+
+------ Characteristic
+----------UUID......................: 2A01
+----------Type......................: 2803-Characteristic
+----------Handle....................: 0x4
+----------Value Handle..............: 0x5
+----------Permissions...............: 0x2 : ['Read']
+----------Name......................: Appearance (0x2A01)
+----------Name in database..........: Appearance
+----------Descriptors...............: None
+
+
+------ Characteristic
+----------UUID......................: 2A04
+----------Type......................: 2803-Characteristic
+----------Handle....................: 0x6
+----------Value Handle..............: 0x7
+----------Permissions...............: 0x2 : ['Read']
+----------Name......................: Peripheral Preferred Connection Parameters (0x2A04)
+----------Name in database..........: Peripheral Preferred Connection Parameters
+----------Descriptors...............: None
+
+
+------ Characteristic
+----------UUID......................: 2AA6
+----------Type......................: 2803-Characteristic
+----------Handle....................: 0x8
+----------Value Handle..............: 0x9
+----------Permissions...............: 0x2 : ['Read']
+----------Name......................: Central Address Resolution (0x2AA6)
+----------Name in database..........: Central Address Resolution
+----------Descriptors...............: None
+
+
+Service--------------------------------------------------
+--Service UUID......: 1801
+--Service type......: 2800--Primary Service
+--Service handle....: 0xa
+--Name..............: Generic Attribute (0x1801)
+--Name in database..: Generic Attribute
+
+
+Service--------------------------------------------------
+--Service UUID......: FE59
+--Service type......: 2800--Primary Service
+--Service handle....: 0xb
+--Name..............: FE59
+--Name in database..: Secure DFU Service
+
+
+------ Characteristic
+----------UUID......................: 8ec90002-f315-4f60-9fb8-838830daea50
+----------Type......................: 2803-Characteristic
+----------Handle....................: 0xc
+----------Value Handle..............: 0xd
+----------Permissions...............: 0x4 : ['Write Without Response']
+----------Name......................: 8ec90002-f315-4f60-9fb8-838830daea50
+----------Name in database..........: DFU Packet
+----------Descriptors...............: None
+
+
+------ Characteristic
+----------UUID......................: 8ec90001-f315-4f60-9fb8-838830daea50
+----------Type......................: 2803-Characteristic
+----------Handle....................: 0xe
+----------Value Handle..............: 0xf
+----------Permissions...............: 0x18 : ['Write', 'Notify']
+----------Name......................: 8ec90001-f315-4f60-9fb8-838830daea50
+----------Name in database..........: DFU Control Point
+----------Descriptors...............: Yes
+----------------Descriptor handle...: 0x10
+----------------Descriptor value....: b'\x00\x00'
+
+
+value of characteristic Peripheral Preferred Connection Parameters
+b'DfuTarg'
+
+
+value of characteristic Appearance

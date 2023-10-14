@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "app_blinky_nrf52832_s132_sdk17.1.0.bin",
+            "dat_file": "app_blinky_nrf52832_s132_sdk17.1.0.dat"
+        }
+    }
+}

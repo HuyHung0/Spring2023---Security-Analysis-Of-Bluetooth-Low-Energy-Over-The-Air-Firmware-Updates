@@ -1,0 +1,17 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "app_hrs_with_dfu_s130_nrf51_sdk11.bin",
+            "dat_file": "app_hrs_with_dfu_s130_nrf51_sdk11.dat",
+            "init_packet_data": {
+                "application_version": 5,
+                "device_revision": 4,
+                "device_type": 3,
+                "softdevice_req": [
+                    7
+                ]
+            }
+        },
+        "dfu_version": 6.0
+    }
+}

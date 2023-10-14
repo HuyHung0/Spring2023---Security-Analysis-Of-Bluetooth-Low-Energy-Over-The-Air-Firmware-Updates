@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "dfu_version": 0.5,
+        "softdevice": {
+            "bin_file": "sd_s130_nrf51_2.0.0_softdevice.bin",
+            "dat_file": "sd_s130_nrf51_2.0.0_softdevice.dat",
+            "init_packet_data": {
+                "application_version": 305441741,
+                "device_revision": 4,
+                "device_type": 3,
+                "firmware_crc16": 29638,
+                "softdevice_req": [
+                    26505
+                ]
+            }
+        }
+    }
+}

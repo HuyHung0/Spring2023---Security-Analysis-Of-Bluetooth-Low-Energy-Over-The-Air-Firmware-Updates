@@ -1,0 +1,304 @@
+Service--------------------------------------------------
+--Service handle....: 0x1
+--Service type......: 2800
+--Service UUID......: 1800
+--Name..............: Generic Access (0x1800)
+--Name in database..: Generic Access
+
+
+------ Characteristic
+-----------Type..............: 2803
+-----------Handle............: 0x2
+-----------Value Handle......: 0x3
+-----------Permissions.......: 0xa : ['Read', 'Write']
+-----------UUID..............: 2A00
+-----------Name..............: Device Name (0x2A00)
+-----------Name in database..: Device Name
+
+
+------ Characteristic
+-----------Type..............: 2803
+-----------Handle............: 0x4
+-----------Value Handle......: 0x5
+-----------Permissions.......: 0x2 : ['Read']
+-----------UUID..............: 2A01
+-----------Name..............: Appearance (0x2A01)
+-----------Name in database..: Appearance
+
+
+------ Characteristic
+-----------Type..............: 2803
+-----------Handle............: 0x6
+-----------Value Handle......: 0x7
+-----------Permissions.......: 0x2 : ['Read']
+-----------UUID..............: 2A04
+-----------Name..............: Peripheral Preferred Connection Parameters (0x2A04)
+-----------Name in database..: Peripheral Preferred Connection Parameters
+
+
+Service--------------------------------------------------
+--Service handle....: 0x8
+--Service type......: 2800
+--Service UUID......: 1801
+--Name..............: Generic Attribute (0x1801)
+--Name in database..: Generic Attribute
+
+
+------ Characteristic
+-----------Type..............: 2803
+-----------Handle............: 0x9
+-----------Value Handle......: 0xa
+-----------Permissions.......: 0x20 : ['Indicate']
+-----------UUID..............: 2A05
+-----------Name..............: Service Changed (0x2A05)
+-----------Name in database..: Service Changed
+
+
+Service--------------------------------------------------
+--Service handle....: 0xc
+--Service type......: 2800
+--Service UUID......: 00001530-1212-efde-1523-785feabcd123
+--Name..............: 00001530-1212-efde-1523-785feabcd123
+--Name in database..: Legacy DFU Service
+
+
+------ Characteristic
+-----------Type..............: 2803
+-----------Handle............: 0xd
+-----------Value Handle......: 0xe
+-----------Permissions.......: 0x4 : ['Write Without Response']
+-----------UUID..............: 00001532-1212-efde-1523-785feabcd123
+-----------Name..............: 00001532-1212-efde-1523-785feabcd123
+-----------Name in database..: Legacy DFU Packet
+
+
+------ Characteristic
+-----------Type..............: 2803
+-----------Handle............: 0xf
+-----------Value Handle......: 0x10
+-----------Permissions.......: 0x18 : ['Write', 'Notify']
+-----------UUID..............: 00001531-1212-efde-1523-785feabcd123
+-----------Name..............: 00001531-1212-efde-1523-785feabcd123
+-----------Name in database..: Legacy DFU Control Point
+
+
+------ Characteristic
+-----------Type..............: 2803
+-----------Handle............: 0x12
+-----------Value Handle......: 0x13
+-----------Permissions.......: 0x2 : ['Read']
+-----------UUID..............: 00001534-1212-efde-1523-785feabcd123
+-----------Name..............: 00001534-1212-efde-1523-785feabcd123
+-----------Name in database..: Legacy DFU Version
+
+
+
+
+------------Methods of central-------------
+SCAPY_CORR_ADV
+_BLE__can_send
+_BLE__can_send_raw
+_BLE__encrypted
+_BLE__ready
+_BLE__triggers
+_Central__connected
+_Central__gatt_client
+_Central__local
+_Central__peripheral
+_Central__profile_json
+_Central__random_addr
+_Central__stack
+_Central__target
+_WhadDeviceConnector__callbacks_lock
+_WhadDeviceConnector__device
+_WhadDeviceConnector__reception_callbacks
+_WhadDeviceConnector__transmission_callbacks
+__class__
+__delattr__
+__dict__
+__dir__
+__doc__
+__eq__
+__format__
+__ge__
+__getattribute__
+__gt__
+__hash__
+__init__
+__init_subclass__
+__le__
+__lt__
+__module__
+__ne__
+__new__
+__reduce__
+__reduce_ex__
+__repr__
+__setattr__
+__sizeof__
+__str__
+__subclasshook__
+__weakref__
+attach_callback
+can_be_central
+can_be_peripheral
+can_connect
+can_delete_sequence
+can_discover_access_addresses
+can_hijack_both
+can_hijack_master
+can_hijack_slave
+can_inject
+can_jam_advertisement_on_channel
+can_prepare
+can_reactive_jam
+can_scan
+can_send
+can_sniff_active_connection
+can_sniff_advertisements
+can_sniff_new_connection
+can_trigger
+close
+connect
+connect_to
+connection
+delete_sequence
+detach_callback
+device
+disconnect
+discover_access_addresses
+enable_adv_mode
+enable_central_mode
+enable_peripheral_mode
+enable_scan_mode
+export_profile
+format
+hijack_both
+hijack_master
+hijack_slave
+is_connected
+is_ll_encrypted
+jam_advertisement_on_channel
+local_peer
+monitor_packet_rx
+monitor_packet_tx
+on_adv_pdu
+on_any_msg
+on_connected
+on_ctl_pdu
+on_data_pdu
+on_desynchronized
+on_disconnected
+on_discovery_msg
+on_domain_msg
+on_error_pdu
+on_generic_msg
+on_new_connection
+on_pdu
+on_raw_pdu
+on_synchronized
+on_triggered
+peripheral
+prepare
+reactive_jam
+reset_callbacks
+send_command
+send_ctrl_pdu
+send_data_pdu
+send_message
+send_pdu
+set_bd_address
+set_device
+set_encryption
+sniff_active_connection
+sniff_advertisements
+sniff_new_connection
+start
+stop
+support_raw_pdu
+target_peer
+translator
+trigger
+version
+wait_for_message
+
+
+
+
+------------Methods of device--------------
+_GenericProfile__alloc_handle
+_GenericProfile__attr_db
+_GenericProfile__handle
+_GenericProfile__hooks
+_GenericProfile__service_by_characteristic_handle
+_GenericProfile__services
+_GenericProfile__start_handle
+_PeripheralDevice__central
+_PeripheralDevice__conn_handle
+_PeripheralDevice__disconnect_cb
+_PeripheralDevice__gatt
+__class__
+__delattr__
+__dict__
+__dir__
+__doc__
+__eq__
+__format__
+__ge__
+__getattribute__
+__gt__
+__hash__
+__init__
+__init_subclass__
+__le__
+__lt__
+__module__
+__ne__
+__new__
+__reduce__
+__reduce_ex__
+__repr__
+__setattr__
+__sizeof__
+__str__
+__subclasshook__
+__weakref__
+add_service
+attr_by_type_uuid
+conn_handle
+disconnect
+discover
+export_json
+find_characteristic_by_uuid
+find_characteristic_by_value_handle
+find_characteristic_end_handle
+find_hook
+find_object_by_handle
+find_objects_by_range
+find_service_by_characteristic_handle
+find_service_by_uuid
+get_characteristic
+get_characteristic_by_UUID
+get_service
+get_service_by_UUID
+on_characteristic_read
+on_characteristic_subscribed
+on_characteristic_unsubscribed
+on_characteristic_write
+on_characteristic_written
+on_connect
+on_disconnect
+on_indication
+on_notification
+read
+register_attribute
+remove_service
+services
+set_disconnect_cb
+set_mtu
+update_service
+write
+write_command
+
+
+Stop connection

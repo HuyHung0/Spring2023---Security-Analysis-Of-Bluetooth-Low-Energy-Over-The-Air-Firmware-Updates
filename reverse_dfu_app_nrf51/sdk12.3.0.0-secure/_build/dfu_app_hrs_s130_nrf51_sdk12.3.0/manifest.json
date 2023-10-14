@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "app_s130_nrf51422_sdk12.3.0.bin",
+            "dat_file": "app_s130_nrf51422_sdk12.3.0.dat"
+        }
+    }
+}

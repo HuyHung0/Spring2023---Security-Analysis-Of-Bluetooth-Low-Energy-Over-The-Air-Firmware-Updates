@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "bootloader": {
+            "bin_file": "bl_secure_s132_sdk12.3.0.bin",
+            "dat_file": "bl_secure_s132_sdk12.3.0.dat"
+        }
+    }
+}
